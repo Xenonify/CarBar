@@ -1,0 +1,15 @@
+@font-face{
+    
+    font-family:myfont;
+    src:url(Goldman-Regular.ttf);
+}
+
+
+#myfont1{
+    font-family:myfont;
+}
+
+
+body{
+    background-color: red;
+}

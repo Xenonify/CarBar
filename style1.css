@@ -1,0 +1,231 @@
+body{
+    background:#0A1627;
+    color: #FE0039;
+}
+header{
+    background-color: #0A1627;
+    width:100%;
+    height:120px;
+    font-family:myFont;
+    font-size:30pt;
+    text-align: :center;
+    color:#FE0039;
+}
+
+nav{
+
+background-color: #0A1627;
+width:100%;
+height:50px;
+}
+
+/*nav a{
+    width :100px;
+    height :20px;
+    background-color:#cc00ff;
+    padding:20px;
+    margin-left :200px;
+    border:solid black 2px;
+}*/
+nav ul li a{
+    text-decoration:none;/*removes underlining from links*/
+     width: 150px;
+    margin-right: 50px;
+    padding-left:40px;
+    
+    
+}
+    nav ul li{
+       
+        display :inline-block;
+        list-style-type: :none;
+        background-color: #0A1627;
+        color:#FE0039;
+    margin-top: 45px;
+        font-size: 35pt;
+       
+        
+      }
+a:visited{
+    color:#FE0039;
+}
+a:active{ 
+    color :yellow;
+}
+.thinborder{
+    border:solid green 2px;
+}
+h1{
+    color:blue;
+    font-size:30pt;}
+ 
+p.{
+    color:  white
+    font-size : 18pt;
+}
+ 
+
+@font-face{
+font-family:myfont;
+src:url(Goldman-Regular.ttf);
+ }
+    
+.font1{
+    font-family: myfont;
+}
+    
+    
+    #logo{
+        float:left;
+        width:150px;
+
+        height:200px;
+    }
+    
+    
+    #links{
+        float: left;
+        height:200px;
+    }\
+
+body{ 
+    color: #FE0039;}
+paragraph{
+     : #FE0039; }
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #FE0039;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #FE0039;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #0A1627;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+button{
+    background-color: #FE0039;
+}
+
+
+
+
+footer{
+
+background-color: #0A1627;
+width:100%;
+height:50px;
+}
+
+/*nav a{
+    width :100px;
+    height :20px;
+    background-color:#cc00ff;
+    padding:20px;
+    margin-left :200px;
+    border:solid black 2px;
+}*/
+footer ul li a{
+    text-decoration:none;/*removes underlining from links*/
+     width: 150px;
+    margin-right: 50px;
+    padding-left:40px;
+    
+    
+}
+    footer ul li{
+       
+        display :inline-block;
+        list-style-type: :none;
+        background-color: #0A1627;
+        color:#FE0039;
+    margin-top: 45px;
+        font-size: 35pt;
+       margin-bottom: 45px
+        
+      }
+a:visited{
+    color:#FE0039;
+}
+a:active{ 
+    color :yellow;
+}
